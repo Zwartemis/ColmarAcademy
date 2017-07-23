@@ -1,0 +1,198 @@
+/* Delete before publishing */
+
+div, nav, span, footer, h2, h3, h4, h5, p, li, ul, ol, img, section {
+ border: 1px solid blue;
+}
+
+/* Delete above here before publishing */
+
+html {
+  font-size: 16px;
+}
+
+body {
+
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+/* Header Section */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 4rem;
+  position: fixed;
+  width: 100%;
+  background-color: seagreen;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  z-index: 10;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo .icon {
+  height: 3rem;
+}
+
+nav {
+  display: flex;
+}
+
+nav ul{
+  display: flex;
+  align-items: center;
+}
+
+nav ul li {
+  padding: 0 0.5rem;
+}
+
+nav ul li:last-child {
+  padding-right: 0;
+}
+
+/* Site Content */
+
+section,
+footer {
+  display: flex;
+  position: relative;
+  padding: 2rem 1.5rem;
+  top: 4rem;
+}
+
+.story {
+  display: flex;
+}
+
+.story .img-container {
+  width: 35%;
+  margin: 1rem;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 65%;
+}
+
+.description p {
+  padding: 0.5rem 0;
+}
+
+/* Banner section */
+
+section#banner{
+  background-color: yellow;
+}
+
+.banner {
+  display: flex;
+  width: 100%;
+}
+
+.banner .img-container {
+  width: 60%;
+}
+
+.banner .content {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 2.5rem;
+}
+
+.button {
+  padding: 0.5rem 0;
+  text-align: center;
+}
+
+/* Information Section */
+
+.information {
+  padding-right: 1.5rem;
+}
+
+.information .content {
+  padding-top: 2rem;
+}
+
+/* Courses section */
+
+section#catalog {
+  display: block;
+}
+
+#catalog h2 {
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.courses {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.class {
+  width: 30%;
+  margin: 0 1rem 1rem 1rem;
+}
+
+.class .description {
+  padding: 1rem;
+}
+
+.class p {
+  padding: 0.5rem 0;
+}
+
+/* Thesis section */
+
+section#thesis {
+  display: block;
+}
+
+#thesis h2 {
+  padding-bottom: 2rem;
+  text-align: center;
+}
+
+.thesis {
+  display: flex;
+}
+
+.thesis .main {
+  width: 60%;
+}
+
+video {
+  width: 100%;
+  display: block;
+}
+
+.thesis .main h2 {
+  text-align: left;
+}
+
+/* Footer section */
