@@ -511,6 +511,10 @@ section#catalog {
     margin-bottom: 0.5rem;
   }
 
+  .class:active {
+      background-color: hsla(0, 70%, 35%, 0.3);
+  }
+
   .class:last-child {
     margin-bottom: 2rem;
   }
